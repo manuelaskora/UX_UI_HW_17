@@ -31,6 +31,9 @@ header ul li a {
 header ul li a:hover {
 	border-bottom: 3px solid #8CCB7C;
 }
+header ul li a.active {
+	border-bottom: 3px solid #8CCB7C;
+}
 header img {
 	display: inline-block;
 	width: 124px;
@@ -45,6 +48,15 @@ h1 {
     margin: 0;
     padding: 0;
     line-height: 107px;
+}
+h2 {
+	font-size: 90px;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 90px;
 }
 h3 {
 	font-size: 46px;
@@ -183,4 +195,37 @@ footer ul li a {
 }
 footer ul li a:hover {
 	border-bottom: 3px solid #8a8686;
+}
+.work {
+
+}
+.work .project {
+	height: 1043px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin: 40px auto 60px;
+}
+
+.work .project div {
+	width: 100%;
+	max-width: 984px;
+	min-height: 224px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.work .project {
+	background-image: url("../img/work-1.png");
+}
+.work .project:nth-child(2) {
+	background-image: url("../img/work-2.png");
+}
+.work .project:nth-child(3) {
+	background-image: url("../img/work-3.jpg");
 }
